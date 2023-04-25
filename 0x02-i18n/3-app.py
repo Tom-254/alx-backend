@@ -31,7 +31,8 @@ babel = Babel(app)
 
 @babel.localeselector
 def get_locale() -> str:
-    """Retrieves the best matching locale for the user's request.
+    """Retrieves the best matching locale for
+    the user's request.
 
     Returns:
         str: A string representing the best matching locale.
@@ -44,7 +45,8 @@ def get_index() -> str:
     """Displays the home/index page.
 
     Returns:
-        str: A string representing the HTML content of the home/index page.
+        str: A string representing the HTML content of
+        the home/index page.
     """
     return render_template('3-index.html')
 
