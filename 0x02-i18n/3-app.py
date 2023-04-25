@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Flask app with supporting internationalization using Flask Babel.
+"""
+Flask app with supporting internationalization
+using Flask Babel.
 """
 
 from flask_babel import Babel
@@ -7,7 +9,8 @@ from flask import Flask, render_template, request
 
 
 class Config:
-    """Represents the configuration for the Flask Babel extension.
+    """Represents the configuration for the Flask
+    Babel extension.
 
     Attributes:
         LANGUAGES (list of str): A list of supported languages.
