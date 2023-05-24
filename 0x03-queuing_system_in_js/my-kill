@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+if [ $# -eq 0 ]; then
+    echo "Use the commnd pkill -9 {'program'}"
+else
+    kill -9 $(ps | grep npm | awk '{print $1}')
+fi
